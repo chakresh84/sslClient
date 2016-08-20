@@ -31,8 +31,8 @@ public class App
 	   javax.net.ssl.HttpsURLConnection.setDefaultHostnameVerifier(allHostsValid);
 */
 	   RestTemplate rt = new RestTemplate();
-       String nonSSL = "http://localhost:8082/SpringRestfulWebServicesWithJSONExample/countries";
-       String ssl = "https://localhost:8443/SpringRestfulWebServicesWithJSONExample/countries";
+       String nonSSL = "http://localhost:8082/RestfulServer/countries";
+       String ssl = "https://localhost:8443/RestfulServer/countries";
        
        HttpHeaders hh = new HttpHeaders();
        hh.setContentType(MediaType.APPLICATION_JSON);
